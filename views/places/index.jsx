@@ -1,14 +1,14 @@
 const React = require('react');
-const Default = require('./default');
+const Default = require('../default');
 
-function home () {
+function index () {
     return (
       <Default>
           <main>
-              <h1>HOME</h1>
+              <h1>Places Index</h1>
           </main>
       </Default>
     )
   }  
 
-module.exports = home;
+module.exports = index;
