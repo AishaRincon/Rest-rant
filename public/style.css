@@ -1,5 +1,18 @@
 h1 {
     text-align: center;
     color: #720026;
+    font-family: Georgia;
   }
-  
+
+p {
+    text-align: center;
+    color: #ce4257;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
