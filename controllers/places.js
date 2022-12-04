@@ -8,13 +8,13 @@ router.get('/', (req, res) => {
     city: 'Seattle',
     state: 'WA',
     cuisines: 'Thai, Pan-Asian',
-    pic: '/images/Cafe.jpg'
+    pic: '/images/ThaiFood.jpg'
   }, {
     name: 'Coding Cat Cafe',
     city: 'Phoenix',
     state: 'AZ',
     cuisines: 'Coffee, Bakery',
-    pic: '/images/ThaiFood.jpg'
+    pic: '/images/Cafe.jpg'
   }]  
     res.render('places/index', {places});
   });
